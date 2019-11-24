@@ -5,13 +5,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <style media="screen">
+    <style type="text/css">
       Body {
         color: red;
       }
     </style>
+
+    <script type="text/javascript">
+      function capitalize() {
+        var comment = document.getElementById("commentId");
+        comment.value = comment.value.toUpperCase();
+      }
+    </script>
   </head>
   <body>
-Hello World! This is Christina and Alex's web page
+Hello World! This is Christina and Alex's web page.
+Leave us a comment: <input type="text" name="comment" id="commentId" onchange="capitalize()">
   </body>
 </html>
