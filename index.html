@@ -56,6 +56,28 @@
         Your browser does not support the video tag.
     </video>
 
+    <! –– form ––>
+    <p>Name <input type="text" name="first name" maxlength="50"><input type="text" name="last name" maxlength="50"></p>
+    <p>Email <input type="text" name="email" maxlength="50"></p>
+    <p>Are you attending?
+      <select name="attending">
+        <option value="gladlyAttend">Gladly attend</option>
+        <option value="regretfullyDecline">Regretfully decline</option>
+        <option value="resentfullyAttend">Resentfully attend</option>
+        <option value="enthusiasticallyDecline">Enthusiastically decline</option>
+        <option value="ultimatellyAttend">Will decline to respond but ultimately attend</option>
+      </select></p>
+    <p>Number of guests <input type="text" name="guestsNumber" maxlength="1"></p>
+    <p>Name of guests accompanying you <textarea name="companions" cols="45" rows="5"></textarea></p>
+    <p>Do you have any allergies or dietary restrictions?
+      <select name="dietaryRestrictions">
+        <option value="yesDietayRestriction">Yes</option>
+        <option value="noDietaryRestriction">No</option>
+      </select></p>
+    <p>If yes, please indicate here <input type="text" name="otherDietaryRestrictions" maxlength="100"></p>
+    <p>Song suggestions? <textarea name="songs" cols="45" rows="5"></textarea></p>
+    <input type="submit" name="submit" value="Submit">
+
     <p><em>Final version coming soon.</em> &nbsp;&nbsp;&nbsp; 👍</p>
   </body>
 </html>
